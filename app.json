@@ -9,13 +9,13 @@
     "REGION_APP_NAME": {
       "description": "appname identifier including the deployment region",
       "value": "region1-app1"
-    },
+    }
   },
   "formation": {
     "web": {
       "quantity": 1,
       "size": "private-s"
-    },
+    }
   },
     "addons": [
       "papertrail",
