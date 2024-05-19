@@ -9,6 +9,10 @@
     "REGION_APP_NAME": {
       "description": "appname identifier including the deployment region",
       "value": "region1-app1"
+    },
+    "WEBAPP_VIRTUAL_ROOT": {
+      "description": "web app virtual root - for CDN/reverse proxy e.g. www.example.com/app1/",
+      "value": "/app1"
     }
   },
   "formation": {
